@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header_nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_nav img{
+    height: 40px;
+    width: 80px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.header_nav p{
+    margin-left: 400px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.header_section{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header_section h1{
+    background-color: white;
+    color: purple;
+    margin-top: 60px;
+    font-size: 48px;
+}
+
+.header_section h2{
+    color: white;
+    font-size: 48px;
+}
+
+.header_section p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.header_4{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+}
+
+.formsection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.formsection input{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.youtube1{
+    margin-top: 80px;
+}
+
+.formsection button{
+    width: 350px;
+    height: 160px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+}
+
+.section2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h1{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.imagesection_section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.imagesection_section2 ul{
+    margin-left:350px ;
+    font-size: 22px;
+    list-style: none;
+}
+
+.imagesection_section2 ul li{
+    margin-top: 18px;
+}
+
+.section2_rightimg img{
+    width: 450px;
+    height: 450px;
+    margin-left: 40px;
+}
+
+.section3{
+    width: 100%;
+    height: auto;
+    background-image: url(./assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section3 h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.four_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+
+.four_div div{
+    width: 550px;
+    height: 150px;
+    background-color: white;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 20px 20px 0px 0px; */
+}
+
+.four_div div p:first-child{
+    background-color: purple;
+    color: white;
+    height: 75px;
+    padding-top: 15px; 
+    font-size: 35px; 
+    font-weight: bold; 
+}
+.four_div div p:last-child{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.form2{
+    width: 1350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+}
+
+.form2 input{
+    margin-top: 20px;
+    /* margin-left: 280px; */
+    height: 50px;
+}
+
+.form2 button{
+    height: auto;
+    width: 1130px;
+    background-color: purple;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.section5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+.section5 h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+.div5{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: white;
+    padding-inline: 100px;
+    padding-block: 30px;
+    border-radius: 20px;
+}
+.div5 p{
+    margin-top: 30px;
+}
+
+.section6{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.section6 h1{
+    color: purple;
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+.div6{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    padding-inline: 100px;
+    padding-block: 30px;
+    border-radius: 20px;
+}
+.div6 p{
+    margin-top: 30px;
+}
+
+.section7{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* background-color: black; */
+    background-image: url(./assets/1.jpg);
+}
+
+.section7 h1{
+    margin-top: 30px;
+    font-size: 48px;
+    color: white;
+}
+
+.youtube6_div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 190px;
+    
+}
+
+.divone{
+    margin: 30px;
+}
+
+.form3{
+    width: 1350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+    /* background-color: black; */
+}
+
+.form3 input{
+    margin-top: 20px;
+    /* margin-left: 280px; */
+    height: 50px;
+}
+
+.form3 button{
+    height: auto;
+    width: 1130px;
+    background-color: purple;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+body {
+    /*   background-color: #FFF8F2; */
+      color: #373539;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+     padding:50px;
+    }
+    
+    .faq-drawer {
+      margin-bottom: 30px;
+    }
+    
+    .faq-drawer__content-wrapper {
+      font-size: 1.25em;
+      line-height: 1.4em;
+      max-height: 0px;
+      overflow: hidden;
+      transition: 0.25s ease-in-out;
+    }
+    
+    .faq-drawer__title {
+      border-top: #000 1px solid;
+      cursor: pointer;
+      display: block;
+      font-size: 1.25em;
+      font-weight: 700;
+      padding: 30px 0 0 0;
+      position: relative;
+      margin-bottom: 0;
+      transition: all 0.25s ease-out;
+    }
+    
+    .faq-drawer__title::after {
+      border-style: solid;
+      border-width: 1px 1px 0 0;
+      content: " ";
+      display: inline-block;
+      float: right;
+      height: 10px;
+      left: 2px;
+      position: relative;
+      right: 20px;
+      top: 2px;
+      transform: rotate(135deg);
+      transition: 0.35s ease-in-out;
+      vertical-align: top;
+      width: 10px;
+    }
+    
+    /* OPTIONAL HOVER STATE */
+    .faq-drawer__title:hover { 
+      color: #4E4B52  ;
+    }
+    
+    .faq-drawer__trigger:checked
+      + .faq-drawer__title
+      + .faq-drawer__content-wrapper {
+      max-height: 350px;
+    }
+    
+    .faq-drawer__trigger:checked + .faq-drawer__title::after {
+      transform: rotate(-45deg);
+      transition: 0.25s ease-in-out;
+    }
+    
+    input[type="checkbox"] {
+      display: none;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .container {
+        padding: 80px;
+      }
+    }
+
+    .footer{
+
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .imagesection_section3{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+    }
+    
+    .imagesection_section3 ul{
+        margin-left:350px ;
+        font-size: 22px;
+        list-style: none;
+    }
+    
+    .imagesection_section3 ul li{
+        margin-top: 18px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scroller{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+}
+
+.slide img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .slide-tracks {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .sliders {
+    /* margin-top: 5px; */
+    background-color: black;
+    /* padding: 8em 2em; */
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+
+
