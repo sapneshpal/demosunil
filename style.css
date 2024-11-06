@@ -545,6 +545,12 @@ body {
         height: 50px;
       }
 
+      .header_nav img{
+        height: 50px;
+        width: 80px;
+        margin-left: 60px;
+      }
+
       .header_nav p{
         display: none;
       }
